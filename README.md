@@ -42,7 +42,7 @@ $ git add .
 ```
 $ git commit -m "[変更内容]"
 ```
-
+  
 * addを取り消す場合は、 `$ git reset`
 * commitしたログを確認したい場合は、 `$ git log`
 
