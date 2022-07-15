@@ -35,9 +35,13 @@ $ git config --global user.email "メールアドレス"
 ### ローカルでの流れ
 1. ファイルを編集  
 2. ファイルをステージングエリア(インデックス)に置く
-```$ git add .```
+```
+$ git add .
+```
 3. この変更内容でローカルに記録
-```$ git commit -m "[変更内容]"```
+```
+$ git commit -m "[変更内容]"
+```
 
 * addを取り消す場合は、 `$ git reset`
 * commitしたログを確認したい場合は、 `$ git log`
