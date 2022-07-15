@@ -4,11 +4,15 @@
 ## セットアップ
 ### インストール
 [Gitをダウンロード](https://git-scm.com/)
-
 インストール時の選択は全てnextでOK
 
-## リンク
-[リンク](https://test.com/)
+### ユーザー設定
+```
+$ git config --global user.name "名前"
+$ git config --global user.email "メールアドレス"
+```
+
+
 
 ## テーブル
 |フォルダ名 |説明                         |
