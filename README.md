@@ -73,7 +73,7 @@ $ git checkout feature/#1_add_cartButtonLink
 ```
 どのブランチにいるかの確認は`$ git branch`
 
-#### 3. ファイルを編集(
+#### 3. ファイルを編集(タスクをこなす)
 ```
 html:index.html
 <a href="#">購入する</a>
