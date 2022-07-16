@@ -51,7 +51,9 @@ main(master)は本番と同じ状態のソースを残すため、開発用にde
 
 
 チームで機能開発とコンテンツの修正を行う
-<br><br>
+<br><br><br><br>
+
+
 
 
 ## まずはリポジトリとブランチの準備
@@ -77,7 +79,9 @@ $ git branch develop
 $ git push origin develop
 ```
 もしくはGithub上でdevelopブランチを作成<br>
-<br><br>
+<br><br><br><br>
+
+
 
 
 ## Gitを使った作業の流れ
