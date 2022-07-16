@@ -46,7 +46,7 @@ $ git config --global user.email "メールアドレス"
 [参考例：https://www.balmuda.com/jp/](https://www.balmuda.com/jp/)  
 * シンプルな構成
 * 擬似的な購入機能
-* 擬似的な問い合わせフォーム機能
+* 擬似的な問い合わせフォーム機能  
 チームで機能開発とコンテンツの修正を行う<br>
 <br><br>
 
@@ -56,13 +56,12 @@ $ git config --global user.email "メールアドレス"
 ![スクリーンショット 2022-07-16 10 41 26](https://user-images.githubusercontent.com/76714091/179330299-9f9d5dda-c2bd-481f-9133-1fb0639dd2ff.jpg)
 
 ### ローカル作業
-#### 1. 作業ブランチをmain(master)から作成(切る)
-方針によってはdevelopブランチをサブマスターとして、そこから切る場合もあり  
+#### 1. 作業ブランチをdevelopから作成(切る)
+命名は`$ git branch ブランチ名/#issue番号_何するか_機能`といったルールで
 ```
-$ git branch feature/issue-1
+$ git branch feature/#1_add_cartButtonLink
 ```
-feature(トピック・特集といった意味)/という命名パターンで、機能追加や変更、バグ修正を行なっている場所だということを明示。  
-後ろにはIssueに対応する番号や概要をネーミングする。   
+feature(トピック・特集といった意味)/という命名パターンで、機能追加や変更、バグ修正を行なっている場所だということを明示
 
 
 #### 2. ブランチを切り替える
