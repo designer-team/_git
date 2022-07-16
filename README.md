@@ -74,12 +74,14 @@ $ git checkout feature/#1_add_cartButtonLink
 どのブランチにいるかの確認は`$ git branch`
 
 #### 3. ファイルを編集
-```html:index.html
+```
+html:index.html
 <a href="#">購入する</a>
 ↓
 <a href="#">販売先へ進む</a>
 ```
-```javascript:common.js
+```
+javascript:common.js
 //購入機能
 document.querySelector('[href="#"]').onclick = function (e) {
   e.preventDefault();
