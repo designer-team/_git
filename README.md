@@ -166,12 +166,31 @@ $ git push origin HEAD
 <br><br>
 
 
-### ローカル作業-2(複数ブランチを使う場合)
-#### 次のタスクに関するブランチを作成
+### ローカル作業-2(複数ブランチを使う場合やマージを覚えてしまおう)
+#### 1. 次のタスクに関するブランチを作成
 ```
 $ git checkout -b feature/#2_add_noindex
 ```
 checkoutに-bオプションを付ければ、作成と切り替えが同時にできる
+
+#### 2. ファイルを編集
+```
+html:index.html
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+↓
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+```
+
+#### 3. 変更履歴に登録
+```
+$ git commit -am "[変更内容]"
+```
+単一ファイルのシンプルな変更なので、addとcommitを同時に実行
+
+#### 4. developブランチに切り替えて#1と#2のブランチをマージ
+<br><br>
 
 
 ### リモート(チーム)作業
