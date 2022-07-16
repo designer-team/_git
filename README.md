@@ -50,11 +50,11 @@ main(master)は本番と同じ状態のソースを残すため、開発用にde
 * 擬似的な問い合わせフォーム機能
 
 
-チームで機能開発とコンテンツの修正を行う<br>
+チームで機能開発とコンテンツの修正を行う
 <br><br>
 
 
-## まずはリポジトリとdevelopブランチの準備
+## まずはリポジトリとブランチの準備
 ### リモートリポジトリからローカルへダウンロード
 ```
 $ git clone https://github.com/[アカウント名]/[リポジトリ名].git
@@ -76,7 +76,7 @@ $ git remote add origin [リポジトリのURL]
 $ git branch develop
 $ git push origin develop
 ```
-もしくはGithub上でdevelopブランチを作成
+もしくはGithub上でdevelopブランチを作成<br>
 <br><br>
 
 
