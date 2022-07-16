@@ -15,22 +15,6 @@
 $ git config --global user.name "名前"
 $ git config --global user.email "メールアドレス"
 ```
-
-### リモートリポジトリからローカルへダウンロード
-```
-$ git clone https://github.com/[アカウント名]/[リポジトリ名].git
-```
-自動的にリモートリポジトリも origin に登録される
-
-### リモートレポジトリを登録
-```
-$ git remote -v
-```
-でリモートリポジトリが登録されてるかを確認  
-登録されていなかったら
-```
-$ git remote add origin [リポジトリのURL]
-```
 <br><br>
 
 
@@ -67,6 +51,32 @@ main(master)は本番と同じ状態のソースを残すため、開発用にde
 
 
 チームで機能開発とコンテンツの修正を行う<br>
+<br><br>
+
+
+## まずはリポジトリとdevelopブランチの準備
+### リモートリポジトリからローカルへダウンロード
+```
+$ git clone https://github.com/[アカウント名]/[リポジトリ名].git
+```
+自動的にリモートリポジトリも origin に登録される
+
+### リモートレポジトリを登録
+```
+$ git remote -v
+```
+でリモートリポジトリが登録されてるかを確認  
+登録されていなかったら
+```
+$ git remote add origin [リポジトリのURL]
+```
+
+### developブランチを準備
+```
+$ git branch develop
+$ git push origin develop
+```
+もしくはGithub上でdevelopブランチを作成
 <br><br>
 
 
