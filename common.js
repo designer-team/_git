@@ -1,7 +1,8 @@
 //購入機能
 document.querySelector('[href="#"]').onclick = function (e) {
   e.preventDefault();
-  alert("決済に進みます");
+  alert("カート画面に進みます");
+  location.href = 'https://www.google.com/search?q=shopping';
 };
 
 //問い合わせフォーム機能
