@@ -134,6 +134,10 @@ $ git push origin HEAD
 <br><br>
 
 
+```
+ファイルを編集 -----> $ git add -----> $ git commit を繰り返しながら進めるのがGitの流儀
+```
+
 ### リモート(チーム)作業
 
 <br><br>
