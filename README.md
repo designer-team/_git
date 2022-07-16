@@ -68,7 +68,7 @@ $ git branch feature/#1_add_cartButtonLink
 
 #### 2. ブランチを切り替える
 ```
-$ git checkout feature/issue-1
+$ git checkout feature/#1_add_cartButtonLink
 ```
 どのブランチにいるかの確認は`$ git branch`
 
