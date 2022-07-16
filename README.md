@@ -190,6 +190,24 @@ $ git commit -am "[変更内容]"
 単一ファイルのシンプルな変更なので、addとcommitを同時に実行
 
 #### 4. developブランチに切り替えて#1と#2のブランチをマージ
+```
+$ git checkout develop
+```
+```
+$ git merge feature/#1_add_cartButtonLink
+$ git merge feature/#2_add_noindex
+```
+次のコマンドで取り込める`$ git merge [取り込みたいブランチ名]`
+
+#### 5. コンフリクト(競合)した箇所を正しく編集
+```
+<<<<<<< HEAD
+    <a href="#">購入する</a>
+=======
+    <a href="#">販売先へ進む</a>
+>>>>>>> feature/#2_add_noindex
+```
+といった具合にバッティングした内容が囲まれているので直す
 <br><br>
 
 
