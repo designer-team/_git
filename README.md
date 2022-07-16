@@ -27,7 +27,8 @@ $ git config --global user.email "メールアドレス"
 | ローカルリポジトリ | 自分のマシン内での作業場、個人のデスク |
 | リモートリポジトリ | ネット上にある共通の作業場、みんなで使うデスク |
 ### ブランチとは
-作業用に作る(切ると表現する)ラインのようなイメージ
+作業用に作る(切ると表現する)ラインのようなイメージ  
+main(master)は本番と同じ状態のソースを残すため、開発用にdevelopブランチを作って作業する
 | 用語 | 意味 |
 | :--- | :--- |
 | ブランチ | 「枝」という意味 |
@@ -73,9 +74,26 @@ $ git checkout feature/#1_add_cartButtonLink
 どのブランチにいるかの確認は`$ git branch`
 
 #### 3. ファイルを編集
+```html:index.html
+<a href="#">購入する</a>
+↓
+<a href="#">販売先へ進む</a>
 ```
-
+```javascript:common.js
+//購入機能
+document.querySelector('[href="#"]').onclick = function (e) {
+  e.preventDefault();
+  alert("決済画面です");
+};
+↓
+//購入機能
+document.querySelector('[href="#"]').onclick = function (e) {
+  e.preventDefault();
+  alert("カート画面に進みます");
+  location.href = 'https://www.google.com/search?q=shopping';
+};
 ```
+に編集を行ったものだと仮定
 #### . ファイルをステージングエリア[インデックス]に置く
 ```
 $ git add .
