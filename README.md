@@ -76,6 +76,7 @@ $ git remote add origin [リポジトリのURL]
 ### developブランチを準備
 ```
 $ git branch develop
+$ git checkout develop
 $ git push origin develop
 ```
 もしくはGithub上でdevelopブランチを作成<br>
@@ -164,7 +165,7 @@ $ git push origin HEAD
 <br><br>
 
 
-### ローカル作業[2](複数ブランチを使う場合)
+### ローカル作業-2(複数ブランチを使う場合)
 
 
 ### リモート(チーム)作業
