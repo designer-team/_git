@@ -35,7 +35,6 @@ $ git config --global user.email "メールアドレス"
 | ビジネス用語での「コミット」|「成果を出す」という意味 |
 
 
-あああ
 <br><br>
 
 
