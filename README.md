@@ -42,8 +42,7 @@ $ git config --global user.email "メールアドレス"
 
 
 ## ハンズオンの紹介
-自社のプロダクト「***」を紹介するサイトを制作  
-[参考例：https://www.balmuda.com/jp/](https://www.balmuda.com/jp/)  
+自社のプロダクトを紹介するサイトを制作  
 * シンプルな構成
 * 擬似的な購入機能
 * 擬似的な問い合わせフォーム機能  
