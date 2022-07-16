@@ -166,8 +166,8 @@ $ git push origin HEAD
 <br><br>
 
 
-### ローカル作業-2(複数ブランチを使う場合やマージを覚えてしまおう)
-#### 1. 次のタスクに関するブランチを作成
+### ローカル作業-2(ローカルでのマージを覚えてしまおう)
+#### 1. 次のタスク(issue#2)に関するブランチを作成
 ```
 $ git checkout -b feature/#2_add_noindex
 ```
@@ -189,13 +189,9 @@ $ git commit -am "[変更内容]"
 ```
 単一ファイルのシンプルな変更なので、addとcommitを同時に実行
 
-#### 4. developブランチに切り替えて#1と#2のブランチをマージ
-```
-$ git checkout develop
-```
+#### 4. issue#1のブランチをマージ
 ```
 $ git merge feature/#1_add_cartButtonLink
-$ git merge feature/#2_add_noindex
 ```
 次のコマンドで取り込める`$ git merge [取り込みたいブランチ名]`
 
