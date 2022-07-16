@@ -208,7 +208,19 @@ $ git merge feature/#1_add_cartButtonLink
 
 
 ### リモート(チーム)作業
+タスクを終えたので上流ブランチに変更をマージ(融合)させたいと思います
+#### 1. リモートとの差分を確認
+```
+$ git diff feature/#2_add_noindex origin/develop
+```
+リモート上の最新情報をローカルに持ってくる(origin/developに取り込まれる)
+```
+$ git diff feature/#2_add_noindex origin/develop
+```
+ローカルとリモートとの差分を確認
 
+#### 2. git push origin feature/#2_add_noindex
+リモートリポジトリへ反映
 <br><br>
 
 
