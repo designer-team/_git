@@ -72,6 +72,7 @@ $ git remote -v
 $ git remote add origin [リポジトリのURL]
 ```
 登録されていなかったら上記で登録する
+* 間違って登録した場合は`$ git remote rm origin`で削除
 
 ### developブランチを準備
 ```
@@ -166,6 +167,11 @@ $ git push origin HEAD
 
 
 ### ローカル作業-2(複数ブランチを使う場合)
+#### 次のタスクに関するブランチを作成
+```
+$ git checkout -b feature/#2_add_noindex
+```
+checkoutに-bオプションを付ければ、作成と切り替えが同時にできる
 
 
 ### リモート(チーム)作業
