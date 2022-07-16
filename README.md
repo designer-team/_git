@@ -49,10 +49,8 @@ $ git config --global user.email "メールアドレス"
 
 
 ## Gitを使った作業の流れ
-### GithubのIssuesにタスクを書き込む
-| 用語 | 意味 |
-| :--- | :--- |
-| Issue(イシュー) | 課題 |
+### GithubのIssues(課題)にタスクを書き込む
+![スクリーンショット 2022-07-16 10 41 26](https://user-images.githubusercontent.com/76714091/179330299-9f9d5dda-c2bd-481f-9133-1fb0639dd2ff.jpg)
 
 ### ローカル作業
 1. ファイルを編集  
