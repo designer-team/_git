@@ -59,7 +59,7 @@ main(master)は本番と同じ状態のソースを残すため、開発用にde
 ![スクリーンショット 2022-07-16 10 41 26](https://user-images.githubusercontent.com/76714091/179330299-9f9d5dda-c2bd-481f-9133-1fb0639dd2ff.jpg)
 
 ### ローカル作業
-#### 1. 作業ブランチをdevelopから作成(切る)
+#### 1. issueに対応した作業用ブランチをdevelopブランチから作成(切る)
 ```
 $ git branch feature/#1_add_cartButtonLink
 ```
