@@ -68,10 +68,10 @@ $ git clone https://github.com/[アカウント名]/[リポジトリ名].git
 $ git remote -v
 ```
 でリモートリポジトリが登録されてるかを確認  
-登録されていなかったら
 ```
 $ git remote add origin [リポジトリのURL]
 ```
+登録されていなかったら上記で登録する
 
 ### developブランチを準備
 ```
