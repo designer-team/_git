@@ -159,7 +159,7 @@ $ git push origin HEAD
 <br><br>
 
 
-### ローカル作業-2(ローカルでのマージを覚えてしまおう)
+### ローカル作業-2(次のタスクもこなして、ローカルでのマージを覚えてしまおう)
 #### 1. 次のタスク(issue#2)に関するブランチを作成
 ```
 $ git checkout -b feature/#2_add_noindex
@@ -175,12 +175,13 @@ html:index.html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex">
 ```
+タスクをこなす
 
 #### 3. 変更履歴に登録
 ```
 $ git commit -am "[変更内容]"
 ```
-単一ファイルのシンプルな変更なので、addとcommitを同時に実行
+今回は単一ファイルのシンプルな変更なので、addとcommitを同時に実行
 
 #### 4. issue#1のブランチをマージ
 ```
@@ -204,11 +205,11 @@ $ git merge feature/#1_add_cartButtonLink
 タスクを終えたので上流ブランチに変更をマージ(融合)させたいと思います
 #### 1. リモートとの差分を確認
 ```
-$ git diff feature/#2_add_noindex origin/develop
+$ git diff feature/#2_add_noindex origin/main
 ```
 リモート上の最新情報をローカルに持ってくる(origin/developに取り込まれる)
 ```
-$ git diff feature/#2_add_noindex origin/develop
+$ git diff feature/#2_add_noindex origin/main
 ```
 ローカルとリモートとの差分を確認
 
