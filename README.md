@@ -228,9 +228,9 @@ ___
 
 ![スクリーンショット 2022-07-17 9 21 07](https://user-images.githubusercontent.com/76714091/179379561-5aca4a6a-280f-4659-a5c3-2136ed63a5d3.jpg)
 ___
-<br><br>
-![スクリーンショット 2022-07-17 9 30 25](https://user-images.githubusercontent.com/76714091/179379562-b46760e7-1271-436f-b521-a7190c09c25f.jpg)
-___
+* feature/#2_add_noindexブランチからmainブランチにマージをお願いしますという選択先
+* テンプレートを利用して概要を記入する
+* Reviewersでレビュアーを選択(mainブランチへのマージはリーダーのみのケースが多い
 <br><br>
 ![スクリーンショット 2022-07-17 9 32 52](https://user-images.githubusercontent.com/76714091/179379564-a2d25fbf-027e-4286-af3c-aa000cd89482.jpg)
 ___
