@@ -218,6 +218,9 @@ $ git diff feature/#2_add_noindex origin/main
 
 #### 3. プルリクエストを送る
 ![スクリーンショット 2022-07-17 9 16 37](https://user-images.githubusercontent.com/76714091/179379557-cd95491a-8667-442d-892f-949417bd1009.jpg)
+プルリクとはレビュアーに上流ブランチへのマージをお願いすること  
+プルリクエストとは「マージ先のブランチに引っ張ってください」といった意味
+
 ![スクリーンショット 2022-07-17 9 21 07](https://user-images.githubusercontent.com/76714091/179379561-5aca4a6a-280f-4659-a5c3-2136ed63a5d3.jpg)
 ![スクリーンショット 2022-07-17 9 30 25](https://user-images.githubusercontent.com/76714091/179379562-b46760e7-1271-436f-b521-a7190c09c25f.jpg)
 ![スクリーンショット 2022-07-17 9 32 52](https://user-images.githubusercontent.com/76714091/179379564-a2d25fbf-027e-4286-af3c-aa000cd89482.jpg)
