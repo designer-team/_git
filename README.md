@@ -230,24 +230,33 @@ ___
 ___
 * feature/#2_add_noindexブランチからmainブランチにマージをお願いしますという選択先
 * テンプレートを利用して概要を記入する
-* Reviewersでレビュアーを選択(mainブランチへのマージはリーダーのみのケースが多い
-<br><br>
-![スクリーンショット 2022-07-17 9 32 52](https://user-images.githubusercontent.com/76714091/179379564-a2d25fbf-027e-4286-af3c-aa000cd89482.jpg)
-___
-<br><br>
+* Reviewersでレビュアーを選択(mainブランチへのマージはリーダーのみのケースが多い<br><br>
+
+
 ![スクリーンショット 2022-07-17 9 35 09](https://user-images.githubusercontent.com/76714091/179379565-535a7721-c77a-419d-8cf6-8b6b0bc5e956.jpg)
 ___
+修正がある場合はレビュアーがコメントを残す
 <br><br>
+
+
 ![スクリーンショット 2022-07-17 9 43 10](https://user-images.githubusercontent.com/76714091/179379566-0e7b9778-58b1-4cc8-ba38-6272a7db7e32.jpg)
 ___
+直ったら再度レビュー
 <br><br>
-![スクリーンショット 2022-07-17 9 44 35](https://user-images.githubusercontent.com/76714091/179379567-a3c191a5-472f-4159-8abf-55ccfcf22ad5.jpg)
-___
-<br><br>
+
+
 ![スクリーンショット 2022-07-17 9 47 42](https://user-images.githubusercontent.com/76714091/179379568-8bfbc761-ad83-474c-9e3b-e0b27ce6c677.jpg)
 ___
 <br><br>
+
+
 ![スクリーンショット 2022-07-17 9 49 02](https://user-images.githubusercontent.com/76714091/179379569-6f35d3ff-5140-4a58-a41a-cd838a287ebc.jpg)
 ___
 <br><br>
+
+
 ![スクリーンショット 2022-07-17 9 50 33](https://user-images.githubusercontent.com/76714091/179379571-ccc97f90-bc6a-4970-af74-710f034ddb45.jpg)
+
+___
+<br><br>
+
