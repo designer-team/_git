@@ -28,7 +28,8 @@ $ git config --global user.email "メールアドレス"
 | リモートリポジトリ | ネット上にある共通の作業場、みんなで使うデスク |
 ### ブランチとは
 作業用に作る(切ると表現する)ラインのようなイメージ  
-main(master)は本番と同じ状態のソースを残すため、開発用にdevelopブランチを作って作業する
+main(master)は本番にいつでもデプロイできる状態を必ず保っておくことが鉄則ルール  
+開発用にマスターコピーとしてdevelopブランチを作って進めることもあるが、反映までの工程が増えるため、あまり使わない方針
 | 用語 | 意味 |
 | :--- | :--- |
 | ブランチ | 「枝」という意味 |
@@ -72,15 +73,7 @@ $ git remote -v
 $ git remote add origin [リポジトリのURL]
 ```
 登録されていなかったら上記で登録する
-* 間違って登録した場合は`$ git remote rm origin`で削除
-
-### developブランチを準備
-```
-$ git branch develop
-$ git checkout develop
-$ git push origin develop
-```
-もしくはGithub上でdevelopブランチを作成<br>
+* 間違って登録した場合は`$ git remote rm origin`で削除<br>
 <br><br><br><br>
 
 
@@ -91,7 +84,7 @@ $ git push origin develop
 ![スクリーンショット 2022-07-16 10 41 26](https://user-images.githubusercontent.com/76714091/179330299-9f9d5dda-c2bd-481f-9133-1fb0639dd2ff.jpg)
 
 ### ローカル作業
-#### 1. issueに対応した作業用ブランチをdevelopブランチから作成(切る)
+#### 1. issueに対応した作業用ブランチをmain(master)ブランチから作成(切る)
 ```
 $ git branch feature/#1_add_cartButtonLink
 ```
