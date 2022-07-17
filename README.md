@@ -265,7 +265,7 @@ ___
 <br><br>
 
 
-![スクリーンショット 2022-07-17 9 47 42](https://user-images.githubusercontent.com/76714091/179379568-8bfbc761-ad83-474c-9e3b-e0b27ce6c677.jpg)
+![スクリーンショット 2022-07-17 9 47 42](https://user-images.githubusercontent.com/76714091/179401852-83e48725-b9e7-4a06-a89d-3a6337fb2cf2.png)
 ___
 OKだったら「LGTM」とコメントを残すのが慣習
 <br><br>
