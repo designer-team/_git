@@ -207,7 +207,7 @@ $ git merge feature/#1_add_cartButtonLink
 ```
 $ git diff feature/#2_add_noindex origin/main
 ```
-リモート上の最新情報をローカルに持ってくる(origin/developに取り込まれる)
+リモート上の最新情報をローカルに持ってくる(origin/mainに取り込まれる)
 ```
 $ git diff feature/#2_add_noindex origin/main
 ```
