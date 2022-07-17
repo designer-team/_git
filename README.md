@@ -89,13 +89,13 @@ $ git remote add origin [リポジトリのURL]
 $ git branch feature/#1_add_cartButtonLink
 ```
 命名は`ブランチ名/#issue番号_何するか_機能`といったルールで行う    
-上記の場合は機能追加なので、`feature(トピック・特集といった意味)`を使用
+上記の場合は機能追加なので、`feature(トピック・特集といった意味)`を使用<br>
 
 #### 2. ブランチを切り替える
 ```
 $ git checkout feature/#1_add_cartButtonLink
 ```
-どのブランチにいるかの確認は`$ git branch`
+どのブランチにいるかの確認は`$ git branch`<br>
 
 #### 3. ファイルを編集(タスクをこなす)
 ```
@@ -121,7 +121,7 @@ document.querySelector('[href="#"]').onclick = function (e) {
   location.href = 'https://www.google.com/search?q=shopping';
 };
 ```
-に編集を行ったものだと仮定
+に編集を行ったものだと仮定<br>
 
 #### 4. 変更したファイルの一覧と変更前の差分を確認する
 ```
@@ -131,7 +131,7 @@ $ git status
 ```
 $ git diff
 ```
-比較するコマンド [長い時はエディタが開くので`:wq`で閉じる]
+比較するコマンド [長い時はエディタが開くので`:wq`で閉じる]<br>
 
 #### 5. ファイルをステージングエリア(インデックス)に置く
 ```
@@ -141,7 +141,7 @@ $ git add .
 コミット(確定)する前に確認することができたり、複数ファイルをまとめておくことで変更履歴がわかりやすくできるのがメリット  
 * .は確認した差分を全て登録できるオプション  
 * 間違えた場合は`$ git reset HEAD`で一つ前のaddを取り消しできる  
-* 全部リセットする場合は`$ git reset`
+* 全部リセットする場合は`$ git reset`<br>
 
 #### 6. この変更内容でローカルに記録
 ```
@@ -149,13 +149,13 @@ $ git commit -m "[変更内容]"
 ```
 机の上にまとめて置いておいたファイルを「変更履歴というバインダーにしまう」といったイメージのコマンド
 * コミットログを確認したい場合は、 `$ git log`
-* `ファイルを編集 -----> $ git add -----> $ git commit`を繰り返しながら進めるのがGitの流儀
+* `ファイルを編集 -----> $ git add -----> $ git commit`を繰り返しながら進めるのがGitの流儀<br>
 
 #### 7. リモートリポジトリに変更後のソースを送る
 ```
 $ git push origin HEAD
 ```
-現在いるブランチ(HEAD)の分をリモートリポジトリ(originのURL)に「押し上げる」
+現在いるブランチ(HEAD)の分をリモートリポジトリ(originのURL)に「押し上げる」<br>
 <br><br>
 
 
@@ -164,7 +164,7 @@ $ git push origin HEAD
 ```
 $ git checkout -b feature/#2_add_noindex
 ```
-checkoutに-bオプションを付ければ、作成と切り替えが同時にできる
+checkoutに-bオプションを付ければ、作成と切り替えが同時にできる<br>
 
 #### 2. ファイルを編集
 ```
@@ -175,19 +175,19 @@ html:index.html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex">
 ```
-タスクをこなす
+タスクをこなす<br>
 
 #### 3. 変更履歴に登録
 ```
 $ git commit -am "[変更内容]"
 ```
-今回は単一ファイルのシンプルな変更なので、addとcommitを同時に実行
+今回は単一ファイルのシンプルな変更なので、addとcommitを同時に実行<br>
 
 #### 4. issue#1のブランチをマージ
 ```
 $ git merge feature/#1_add_cartButtonLink
 ```
-次のコマンドで取り込める`$ git merge [取り込みたいブランチ名]`
+次のコマンドで取り込める`$ git merge [取り込みたいブランチ名]`<br>
 
 #### 5. コンフリクト(競合)した箇所を正しく編集
 ```
@@ -197,7 +197,7 @@ $ git merge feature/#1_add_cartButtonLink
     <a href="#">販売先へ進む</a>
 >>>>>>> feature/#2_add_noindex
 ```
-といった具合にバッティングした内容が囲まれているので直す
+といった具合にバッティングした内容が囲まれているので直す<br>
 <br><br>
 
 
@@ -211,22 +211,30 @@ $ git diff feature/#2_add_noindex origin/main
 ```
 $ git diff feature/#2_add_noindex origin/main
 ```
-ローカルとリモートとの差分を確認
+ローカルとリモートとの差分を確認<br>
 
 #### 2. git push origin feature/#2_add_noindex
-リモートリポジトリへ反映
+リモートリポジトリへ反映<br>
 
 #### 3. プルリクエストを送る
 ![スクリーンショット 2022-07-17 9 16 37](https://user-images.githubusercontent.com/76714091/179379557-cd95491a-8667-442d-892f-949417bd1009.jpg)
 プルリクとはレビュアーに上流ブランチへのマージをお願いすること  
-プルリクエストとは「マージ先のブランチに引っ張ってください」といった意味
+プルリクエストとは「マージ先のブランチに引っ張ってください」といった意味<br>
 
 ![スクリーンショット 2022-07-17 9 21 07](https://user-images.githubusercontent.com/76714091/179379561-5aca4a6a-280f-4659-a5c3-2136ed63a5d3.jpg)
+<br>
 ![スクリーンショット 2022-07-17 9 30 25](https://user-images.githubusercontent.com/76714091/179379562-b46760e7-1271-436f-b521-a7190c09c25f.jpg)
+<br>
 ![スクリーンショット 2022-07-17 9 32 52](https://user-images.githubusercontent.com/76714091/179379564-a2d25fbf-027e-4286-af3c-aa000cd89482.jpg)
+<br>
 ![スクリーンショット 2022-07-17 9 35 09](https://user-images.githubusercontent.com/76714091/179379565-535a7721-c77a-419d-8cf6-8b6b0bc5e956.jpg)
+<br>
 ![スクリーンショット 2022-07-17 9 43 10](https://user-images.githubusercontent.com/76714091/179379566-0e7b9778-58b1-4cc8-ba38-6272a7db7e32.jpg)
+<br>
 ![スクリーンショット 2022-07-17 9 44 35](https://user-images.githubusercontent.com/76714091/179379567-a3c191a5-472f-4159-8abf-55ccfcf22ad5.jpg)
+<br>
 ![スクリーンショット 2022-07-17 9 47 42](https://user-images.githubusercontent.com/76714091/179379568-8bfbc761-ad83-474c-9e3b-e0b27ce6c677.jpg)
+<br>
 ![スクリーンショット 2022-07-17 9 49 02](https://user-images.githubusercontent.com/76714091/179379569-6f35d3ff-5140-4a58-a41a-cd838a287ebc.jpg)
+<br>
 ![スクリーンショット 2022-07-17 9 50 33](https://user-images.githubusercontent.com/76714091/179379571-ccc97f90-bc6a-4970-af74-710f034ddb45.jpg)
