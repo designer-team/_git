@@ -213,8 +213,11 @@ $ git diff feature/#2_add_noindex origin/main
 ```
 ローカルとリモートとの差分を確認<br>
 
-#### 2. git push origin feature/#2_add_noindex
-リモートリポジトリへ反映<br>
+#### 2. リモートリポジトリへ反映させる
+```
+$ git push origin feature/#2_add_noindex
+```
+<br>
 
 #### 3. プルリクエストを送る
 ![スクリーンショット 2022-07-17 9 16 37](https://user-images.githubusercontent.com/76714091/179379557-cd95491a-8667-442d-892f-949417bd1009.jpg)
