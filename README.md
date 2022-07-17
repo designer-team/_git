@@ -267,7 +267,7 @@ ___
 
 ![スクリーンショット 2022-07-17 9 47 42](https://user-images.githubusercontent.com/76714091/179379568-8bfbc761-ad83-474c-9e3b-e0b27ce6c677.jpg)
 ___
-OKだったら「LGTMです」とコメントを残すのが慣習
+OKだったら「LGTM」とコメントを残すのが慣習
 <br><br>
 
 
