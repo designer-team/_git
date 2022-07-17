@@ -215,15 +215,15 @@ $ git diff feature/#2_add_noindex origin/main
 
 #### 2. git push origin feature/#2_add_noindex
 リモートリポジトリへ反映
-<br><br>
 
-
-## チーム開発でのブランチの使い方
-githubフローの場合
-| ブランチ名 | 役割 |
-| :--- | :--- |
-| main(master) | リリース済みの本番のソースコードを管理 |
-| hotfix | 本番にエラーが出た時の緊急修正用 |
-| release | 本番リリース前の準備用 |
-| develop | 開発中のソースコードを管理(ここが主な作業場) |
-| feature | 各機能に注目して開発する際の作業場 |
+#### 3. プルリクエストを送る
+![スクリーンショット 2022-07-17 9 16 37](https://user-images.githubusercontent.com/76714091/179379557-cd95491a-8667-442d-892f-949417bd1009.jpg)
+![スクリーンショット 2022-07-17 9 21 07](https://user-images.githubusercontent.com/76714091/179379561-5aca4a6a-280f-4659-a5c3-2136ed63a5d3.jpg)
+![スクリーンショット 2022-07-17 9 30 25](https://user-images.githubusercontent.com/76714091/179379562-b46760e7-1271-436f-b521-a7190c09c25f.jpg)
+![スクリーンショット 2022-07-17 9 32 52](https://user-images.githubusercontent.com/76714091/179379564-a2d25fbf-027e-4286-af3c-aa000cd89482.jpg)
+![スクリーンショット 2022-07-17 9 35 09](https://user-images.githubusercontent.com/76714091/179379565-535a7721-c77a-419d-8cf6-8b6b0bc5e956.jpg)
+![スクリーンショット 2022-07-17 9 43 10](https://user-images.githubusercontent.com/76714091/179379566-0e7b9778-58b1-4cc8-ba38-6272a7db7e32.jpg)
+![スクリーンショット 2022-07-17 9 44 35](https://user-images.githubusercontent.com/76714091/179379567-a3c191a5-472f-4159-8abf-55ccfcf22ad5.jpg)
+![スクリーンショット 2022-07-17 9 47 42](https://user-images.githubusercontent.com/76714091/179379568-8bfbc761-ad83-474c-9e3b-e0b27ce6c677.jpg)
+![スクリーンショット 2022-07-17 9 49 02](https://user-images.githubusercontent.com/76714091/179379569-6f35d3ff-5140-4a58-a41a-cd838a287ebc.jpg)
+![スクリーンショット 2022-07-17 9 50 33](https://user-images.githubusercontent.com/76714091/179379571-ccc97f90-bc6a-4970-af74-710f034ddb45.jpg)
