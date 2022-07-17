@@ -247,16 +247,18 @@ ___
 
 ![スクリーンショット 2022-07-17 9 47 42](https://user-images.githubusercontent.com/76714091/179379568-8bfbc761-ad83-474c-9e3b-e0b27ce6c677.jpg)
 ___
+OKだったら「LGTMです」とコメントを残すのが慣習
 <br><br>
 
 
-![スクリーンショット 2022-07-17 9 49 02](https://user-images.githubusercontent.com/76714091/179379569-6f35d3ff-5140-4a58-a41a-cd838a287ebc.jpg)
+![スクリーンショット 2022-07-17 9 49 02](https://user-images.githubusercontent.com/76714091/179379972-65e4f19f-0e16-40f3-8c44-cf6b0a0d743d.jpg)
 ___
+「Merge pull request」ボタンを押してマージを実行
 <br><br>
 
 
-![スクリーンショット 2022-07-17 9 50 33](https://user-images.githubusercontent.com/76714091/179379571-ccc97f90-bc6a-4970-af74-710f034ddb45.jpg)
-
+![スクリーンショット 2022-07-17 9 50 33](https://user-images.githubusercontent.com/76714091/179379974-e6a6773e-7524-4bea-84d8-6fc1631063c2.jpg)
 ___
+成功したら変更用に使っていたリモートブランチを削除する
 <br><br>
 
