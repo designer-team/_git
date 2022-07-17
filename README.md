@@ -239,6 +239,22 @@ ___
 <br><br>
 
 
+#### 4. 修正したら
+```
+$ git add .
+$ git commit -m "[修正内容]"
+```
+```
+$ git rebase -i
+```
+コミット(変更履歴)を一つにまとめる
+```
+$ git push -f origin HEAD
+```
+再度プッシュしてリモートレポジトリ反映させる
+<br><br>
+
+
 ![スクリーンショット 2022-07-17 9 43 10](https://user-images.githubusercontent.com/76714091/179379566-0e7b9778-58b1-4cc8-ba38-6272a7db7e32.jpg)
 ___
 直ったら再度レビュー
@@ -263,7 +279,7 @@ ___
 <br><br>
 
 
-#### 4. マージ完了後のブランチをローカルにも反映させる 
+#### 5. マージ完了後のブランチをローカルにも反映させる 
 ```
 $ git checkout main
 $ git pull origin main
