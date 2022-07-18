@@ -254,7 +254,10 @@ $ git pull
 ```
 $ git rebase -i
 ```
-リベース(一時保存していた状態を乗せる)を使ってfeatureブランチのコミットログの状態をきれいにする
+リベース(一時保存していた状態を乗せる)を使ってfeatureブランチのコミットログの状態をきれいにする  
+[コミットをまとめるgit rebase -i](https://www-creators.com/archives/2850)
+[rebaseとは何をしてくれるコマンドなのか](https://zenn.dev/mikaneko/articles/0fe1daf2e8a987)
+[pullとpull -rebaseの違い](https://qiita.com/Hashimoto-Noriaki/items/6e183f738289cf288b23)
 ```
 $ git push -f origin HEAD
 ```
