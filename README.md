@@ -210,7 +210,7 @@ $ git merge feature/#1_add_cartButtonLink
 ```
 $ git diff HEAD origin/main
 ```
-pullする前にリモートとの変更点を比較して確認`git diff HEAD [リモート名]/[ブランチ名]`
+pullする前にリモートとの変更点を比較して確認`git diff HEAD(今自分が作業している場所を示すポインタ) [リモート名]/[ブランチ名]`
 ```
 $ git pull
 ```
