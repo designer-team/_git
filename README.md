@@ -212,9 +212,9 @@ $ git diff feature/#2_add_noindex origin/main
 ```
 リモート上の最新情報をローカルに持ってくる(origin/mainに取り込まれる)
 ```
-$ git diff feature/#2_add_noindex origin/main
+$ git pull
 ```
-ローカルとリモートとの差分を確認<br>
+<br>
 
 #### 2. リモートリポジトリへ反映させる
 ```
