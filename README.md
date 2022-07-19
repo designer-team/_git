@@ -82,6 +82,7 @@ $ git remote add origin [リポジトリのURL]
 
 
 ## Gitを使った作業の流れ
+[一連の流れについての参考画像](https://user-images.githubusercontent.com/76714091/179133556-a754840a-60c4-4123-8333-8c53789b4f44.png)
 ### GithubのIssues(課題)に要望を書き込む
 ![スクリーンショット 2022-07-16 10 41 26](https://user-images.githubusercontent.com/76714091/179330299-9f9d5dda-c2bd-481f-9133-1fb0639dd2ff.jpg)
 
@@ -158,7 +159,6 @@ $ git commit -m "[変更内容]"
 $ git push origin HEAD
 ```
 現在いるブランチ(HEAD)の分をリモートリポジトリ(originのURL)に「押し上げる」<br>
-[一連の流れについての参考画像](https://user-images.githubusercontent.com/76714091/179133556-a754840a-60c4-4123-8333-8c53789b4f44.png)
 <br><br>
 
 
