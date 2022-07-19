@@ -158,6 +158,7 @@ $ git commit -m "[変更内容]"
 $ git push origin HEAD
 ```
 現在いるブランチ(HEAD)の分をリモートリポジトリ(originのURL)に「押し上げる」<br>
+[一連の流れについての参考画像](https://user-images.githubusercontent.com/76714091/179133556-a754840a-60c4-4123-8333-8c53789b4f44.png)
 <br><br>
 
 
