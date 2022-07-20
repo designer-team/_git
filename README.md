@@ -212,7 +212,7 @@ $ git diff HEAD origin/main
 ```
 pullする前にリモートとの変更点を比較して確認`git diff HEAD(今自分が作業している場所を示すポインタ) [リモート名]/[ブランチ名]`
 ```
-$ git pull
+$ git pull origin main
 ```
 上流ブランチの状態をpullして(引っ張って)自分が変更した箇所以外を最新の状態にしてみる
 <br>
@@ -298,3 +298,8 @@ $ git checkout main
 $ git pull origin main
 ```
 ローカルにもリモートリポジトリから最新の状態をpullして(引っ張ってきて)おく
+
+#### 6. 作業が終わった不要なブランチは削除する
+```
+$ git branch -D feature/***
+```
